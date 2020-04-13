@@ -1,7 +1,7 @@
 from random import randint
 from time import sleep
 computador = randint(0, 2)
-print('---' * 10)
+print('---' * 20)
 print('>>> \033[33mJOGO DE AVENTURA\033[m <<<')
 print('---' * 10)
 print('=== \033[31mMISSÃO\033[m ====')

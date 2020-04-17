@@ -8,7 +8,7 @@ listagem = ('Lápis', 1.75,
             'Canetas', 22.30,
             'Livro', 34.90)
 print('-' * 40)
-print(f'{"LISTAGEM DE PREÇOS":^40}')
+print(f'\033[31m{"LISTAGEM DE PREÇOS":^40}\033[m')
 print('-' * 40)
 for pos in range(0, len(listagem)):
     if pos % 2 == 0:

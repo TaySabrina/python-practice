@@ -29,7 +29,7 @@ comando = ''
 while True:
     titulo('SISTEMA DE AJUDA PyHELP', 2)
     comando = str(input("Função ou Biblioteca >"))
-    if comando.upper() == 'FIM':
+    if comando.strip().upper() == 'FIM':
         break
     else:
         ajuda(comando)

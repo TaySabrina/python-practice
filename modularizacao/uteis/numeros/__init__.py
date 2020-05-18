@@ -5,18 +5,21 @@ def fatorial(n):
     return f
 
 
-def dobro(n):
+def dobro(n = 0):
     return n * 2
 
 
-def triplo(n):
+def triplo(n = 0):
     return n * 3
 
 
-def metade(n):
+def metade(n = 0):
     return n / 2
 
 
-def porc(n):
+def porc(n = 0):
     p  = n * 0.10
     return p + n
+
+def moeda(preco = 0, moeda = 'R$'):
+    return f'{moeda}{preco:>.2f}'.replace('.', ',')

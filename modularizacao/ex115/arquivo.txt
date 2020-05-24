@@ -1,6 +1,3 @@
-Maria
-João
-Ana
-Pedro
-José
-Bia
+Maria;35
+João;56
+Barbara;19
